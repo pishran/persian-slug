@@ -1,0 +1,29 @@
+{
+    "name": "pishran/persian-slug",
+    "description": "Generate a URL friendly slug from a given string.",
+    "keywords": [
+        "persian",
+        "slug",
+        "string",
+        "url"
+    ],
+    "homepage": "https://github.com/pishran/persian-slug",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Farid Aghili",
+            "email": "farid@pishranit.ir",
+            "homepage": "https://www.faridaghili.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/persian-slug.php"
+        ]
+    }
+}
